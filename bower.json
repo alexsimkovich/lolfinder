@@ -1,0 +1,25 @@
+{
+  "name": "angularjs",
+  "version": "0.0.1",
+  "authors": [
+    "Simkovich <dand.was@gmail.com>"
+  ],
+  "analytics": true,
+  "description": "Bower cutsom generator",
+  "cwd": "..",
+  "directory": "app/bower_components",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/alexsimkovich/lolfinder",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

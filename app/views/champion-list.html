@@ -1,0 +1,9 @@
+<div class="champions-block">
+  <ul class="champions_ul">
+    <li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="champions_li">
+      <a href="#/data/{{champion.id}}" class="thumb"><img ng-src="{{champion.imageUrl}}"></a>
+      <a href="#/data/{{champion.id}}">{{champion.name}}</a>
+      <p>{{champion.title}}</p>
+    </li>
+  </ul>
+</div>
